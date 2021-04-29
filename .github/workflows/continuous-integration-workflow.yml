@@ -12,3 +12,8 @@ jobs:
       uses: actions/hello-world-javascript-action@v1.1 # Name of the action. This uses https://github.com/actions/hello-world-javascript-action
       with:                                            # This section is needed if you need to pass arguments to the action
         who-to-greet: 'Mona the Octocat'
+
+    - name: Build the code
+      uses: actions/dotnet@v1.2
+      with:
+        build
