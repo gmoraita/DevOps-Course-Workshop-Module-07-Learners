@@ -23,4 +23,4 @@ jobs:
       run: cd DotnetTemplate.Web ; npm install ; npm run build
 
     - name: Run the linting
-      run: npm run lint
+      run: cd DotnetTemplate.Web ; npm run lint
