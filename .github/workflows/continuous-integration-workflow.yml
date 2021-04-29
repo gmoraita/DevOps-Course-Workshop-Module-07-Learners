@@ -15,3 +15,6 @@ jobs:
 
     - name: Build the code
       run: dotnet build
+
+    - name: Run the tests
+      run: dotnet test
